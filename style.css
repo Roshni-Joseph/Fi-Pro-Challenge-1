@@ -46,6 +46,7 @@ html{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 9999;
 }
 .screen-height{
     min-height: 100vh;
@@ -262,6 +263,7 @@ table tr td{
     }
     .skill{
         flex-wrap: wrap;
+        padding-top: 40px;
     }
     .menu a{
         font-size: 12px;
@@ -274,9 +276,38 @@ table tr td{
     }
     .roshimg{
         margin: 0 auto;
+        width: 230px;
+        height: 301px;
+        padding: 20px;
     }
     .herotext,.social-icons{
         padding-left: 20px !important;
+    }
+    #name{
+        display: none;
+    }
+    .homebg{
+        margin-top: 65px;
+        background-position:0;
+        background-size: auto;
+        background-attachment: initial;
+    }
+    .herotext{
+        padding-top: 170px;
+    }
+    .herotext h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    table tr td{
+        display: block;
+        padding-bottom: 10px;
+    }
+    .contactbg{
+        height: 100%;
+    }
+    .abouth{
+        padding-top: 60px;
     }
 
 }
